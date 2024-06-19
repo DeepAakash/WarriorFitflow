@@ -6,8 +6,26 @@ nav {
     gap: 2rem;
 }
 
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
 .nav-logo {
     max-width: 50px;
+}
+
+.name-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 4px;
+    color: white;
+    font-family: "Archivo Black", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
 }
 
 .nav-links {
@@ -21,7 +39,7 @@ nav {
 .link a {
     position: relative;
     padding-bottom: 0.5rem;
-    color: white;
+    color: var(--white);
 }
 
 .link a::after {
