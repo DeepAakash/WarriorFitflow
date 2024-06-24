@@ -1,12 +1,66 @@
-img {
-    width: 100%;
-    opacity: 0.1;
+h1 {
+  width: 100%;
+  color: white;
+  font-size: 5rem;
+  margin: 0.5rem 0 1.5rem;
+  font-weight: 800;
 }
 
-h1 {
-    position: absolute;
-    width: 100%;
-    top: 50%;
-    left: 50%;
-    color: white;
+.home {
+  display: flex;
+  min-height: calc(100vh - 83px);
+}
+
+.home-content {
+  width: 45%;
+  padding-left: 85px;
+  margin: auto;
+}
+
+.header-content h1 span {
+  display: block;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px var(--white);
+  font-size: 3.5rem;
+}
+
+.speciality {
+    color: var(--secondary-color-light);margin-bottom: 0;
+}
+
+.header-content p {
+    margin-bottom: 2rem;
+}
+
+.video-container {
+  width: 55%;
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  background-color: var(--primary-color);
+}
+
+.background-video {
+  width: 100%;
+  height: 100%;
+  object-fit: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.4;
+  background-color: var(--primary-color);
+}
+
+.video-gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    rgba(11, 20, 39, 1) 1%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  pointer-events: none; /* Allows interaction with video */
 }
