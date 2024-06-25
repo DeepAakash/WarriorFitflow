@@ -94,3 +94,29 @@ a {
     top: 200px;
     left: 70px;
 }
+
+.pt-75 {
+    padding-top: 75px;
+}
+
+.section-heading {
+    text-align: center;
+    background: linear-gradient(44.44deg, #d03f2c, #ED2775);
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 60px;
+    background-size: 300%;
+    letter-spacing: 2px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: animate 10s linear infinite;
+}
+
+@keyframes animate {
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 400%;
+    }
+}
