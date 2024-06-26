@@ -100,7 +100,7 @@ a {
 }
 
 .pt-75 {
-    padding-top: 75px;
+    padding-top: 100px;
 }
 
 .section-heading {
@@ -114,6 +114,11 @@ a {
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     animation: animate 10s linear infinite;
+}
+
+.section-desc {
+    padding: 20px 85px 0;
+    text-align: center;
 }
 
 @keyframes animate {
