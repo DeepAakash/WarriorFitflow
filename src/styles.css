@@ -20,6 +20,10 @@ body {
     color: var(--text-light);
 }
 
+.container {
+    padding: 0 85px;
+}
+
 .section-container {
     max-width: var(--max-width);
     margin: auto;

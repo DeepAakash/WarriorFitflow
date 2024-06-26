@@ -4,6 +4,11 @@ nav {
     justify-content: space-around;
     align-items: center;
     gap: 2rem;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    background: #1221405D;
+    backdrop-filter: blur(25px);
 }
 
 .logo {
@@ -40,6 +45,7 @@ nav {
     position: relative;
     padding-bottom: 0.5rem;
     color: var(--white);
+    cursor: pointer;
 }
 
 .link a::after {

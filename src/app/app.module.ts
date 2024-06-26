@@ -9,6 +9,7 @@ import { MainComponent } from './main/main.component';
 import { TeamComponent } from './team/team.component';
 import { HomeComponent } from './main/home/home.component';
 import { ServicesComponent } from './main/services/services.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ServicesComponent } from './main/services/services.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
