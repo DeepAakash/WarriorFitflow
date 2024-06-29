@@ -10,6 +10,8 @@ import { TeamComponent } from './team/team.component';
 import { HomeComponent } from './main/home/home.component';
 import { ServicesComponent } from './main/services/services.component';
 import { FormsModule } from '@angular/forms';
+import { AboutUsComponent } from './about-us/about-us.component';
+import { GalleryComponent } from './gallery/gallery.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { FormsModule } from '@angular/forms';
     MainComponent,
     TeamComponent,
     HomeComponent,
-    ServicesComponent
+    ServicesComponent,
+    AboutUsComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule,
